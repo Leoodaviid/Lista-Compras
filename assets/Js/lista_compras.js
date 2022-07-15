@@ -42,7 +42,7 @@ function addItem(e) {
     }
     else if (value && editFlag) {
         editElement.innerHTML = value;
-        displayAlert('value changed', 'sucess');
+        displayAlert('Item editado!', 'sucess');
         // Edit local storage
         editLocalStorage(editId, value);
         setBackToDefault()

@@ -113,6 +113,10 @@ input:focus::-moz-placeholder {
 input:focus:-ms-input-placeholder {
     color: transparent;
 }
+.form-control{
+    display: flex;
+    justify-content: space-around;
+}
 
 /* ====== INPUTS FINAL ========*/
 
