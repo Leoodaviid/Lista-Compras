@@ -123,6 +123,7 @@ input:focus:-ms-input-placeholder {
 /*======= TODOS BOTÕES ========*/
 
 .submit-btn {
+    display: block;
     background: linear-gradient(to left, #626262, #6e6e6e);
     cursor: pointer;
     color: white;
@@ -137,7 +138,6 @@ input:focus:-ms-input-placeholder {
 }
 
 .submit-btn:hover {
-    letter-spacing: 0.5px;
     background: linear-gradient(to right, #626262, #6e6e6e);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.10);
 }
